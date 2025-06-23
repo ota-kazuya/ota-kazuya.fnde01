@@ -1,0 +1,51 @@
+/* .backgrd {
+    width: 100%;
+    height: 100%;
+    background-image: url('/image/space.jpg');
+    background-position: left top;
+	background-repeat: no-repeat;
+    background-size: cover;
+} */
+.battleArea {
+    width: 100%;
+    height: 500px;
+    justify-content: center;
+}
+#avoidImage {
+    position: relative;
+    width: auto;
+    height: 300px;
+}
+#randomImage {
+    position: relative;
+    width: auto;
+    height: 300px;
+}
+body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    border-radius: 8px;
+    font-size: 20pt;
+    height: 40px;
+    width: 150px;
+}
+
+/* img {
+    position: absolute;
+    width: auto;
+    height: 200px;
+    transition: transform 1s ease;
+/* }
+
+div {
+    width: 100%;
+    height: 100%;
+}
